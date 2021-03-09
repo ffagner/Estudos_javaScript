@@ -1,4 +1,4 @@
-#operadores aritiméticos
+# operadores aritiméticos
   
  - + adição e concatenação
  - - subtração
