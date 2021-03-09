@@ -13,11 +13,11 @@ console.log(`seu nome é ${texto1} o seu sobrenome e ${texto2} e seu ultimo nome
 
 // Operadores aritiméticos
 /**
- * + adição e concatenação
- * - subtração
- *  / divisão
- *  * multiplicação
- *  ** potenciação
- *  % resto da divisão 
- *  
+  
+ + adição e concatenação
+ - subtração
+  / divisão
+  * multiplicação
+  ** potenciação
+  % resto da divisão 
  */
