@@ -1,5 +1,6 @@
 # operadores aritiméticos
   
+<<<<<<< HEAD
 - ( + adição e concatenação)
 - ( - subtração)
 -  ( / divisão)
@@ -34,3 +35,11 @@ let min = 1;
 let max = 100;
 console.log(Math.round(Math.random() * (max - min) + min));
 ````
+=======
+ - + adição e concatenação
+ - - subtração
+ -  / divisão
+ -  * multiplicação
+ -  ** potenciação
+ -  % resto da divisão
+>>>>>>> f98a8a31fe2cfb262c4d8d397604f9fa0f182706
