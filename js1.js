@@ -46,3 +46,6 @@ b = c;
 c = temp;
 
  console.log(a, b, c);
+
+
+ let numero = document.getElementById("ID do elemento")

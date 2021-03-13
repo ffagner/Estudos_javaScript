@@ -1,6 +1,5 @@
 # operadores aritiméticos
   
-<<<<<<< HEAD
 - ( + adição e concatenação)
 - ( - subtração)
 -  ( / divisão)
@@ -35,11 +34,30 @@ let min = 1;
 let max = 100;
 console.log(Math.round(Math.random() * (max - min) + min));
 ````
-=======
- - + adição e concatenação
- - - subtração
- -  / divisão
- -  * multiplicação
- -  ** potenciação
- -  % resto da divisão
->>>>>>> f98a8a31fe2cfb262c4d8d397604f9fa0f182706
+## acessando um elemento html
+````
+ let numero = document.getElementById("ID do elemento")
+````
+
+## Array
+````
+
+// Array
+
+são os [] que define um array;
+
+const conjunto = ['fagner', "martins", "faroias"];
+
+console.log(conjunto[0]);
+console.log(conjunto.push("daiana")) // add um elemento ao array no final;
+console.log(conjunto);
+console.log(conjunto.length);
+console.log(conjunto.unshift("fabricio")); // add o elemento na primeira posição;
+console.log(conjunto);
+console.log(conjunto.shift()); // remove o primeiro elemento do array;
+console.log(conjunto);
+console.log(conjunto.pop()); // remove o ultimo elemento do array
+console.log(conjunto);
+delete conjunto[2]; // deleta o elemento da posição informada, porem retorna na posição um elemento vazio;
+console.log(conjunto);
+console.log(conjunto instanceof Array); // verifica se o objeto é uma instancia de array;
